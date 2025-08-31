@@ -2,7 +2,6 @@
 /*
  *Product ajax search code
  *[woo_search num="5" sku="on" description="on" price="on"]
- *https://redpishi.com/wordpress-tutorials/product-ajax-search-code/
  */
 add_shortcode("woo_search", "woo_search_func");
 function woo_search_func($atts)
